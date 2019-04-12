@@ -7,6 +7,7 @@
   <title>Page Title</title>
 </head>
 <body>
+<!-- page1 / main -->
 <div data-role="page">
   <div data-role="header">
     <h1> INI header </h1>
@@ -18,26 +19,39 @@
     </ul>
 </div><!-- /navbar -->
   </div>
-  <div data-role="content">
-
-  </div>
+  <div data-role="content" role="main">
+      <ul data-role="listview">
+        <li>Alamat: Jl. Siwalankerto No.121-131,
+          Siwalankerto, Wonocolo, Kota SBY, Jawa Timur 60236</li>
+        <li>Rektor: Prof. Dr. Ir. Djwantoro Hardjito, M.Eng</li>
+        <li>Jenis: Perguruan Tinggi Swasta</li>
+      </ul>
+</div>
+<div data-role="footer" data-position="absolute" >
+    <h4>Created By Andreas Prasetyo</h4>
+</div>
 </div>
 <!---Page2---->
 
   <div data-role="page" id="page2">
-  		<div data-role="header" data-theme="b" data-add-back-btn="true">
+  		<div data-role="header" data-theme="b" data-add-back-btn="true" data-back-btn-text="Back">
   			<h3> halaman 2 </h3>
   		</div>
   		<div data-role="content">
+
   		</div>
   </div>
 <!---Page3--->
 
   <div data-role="page" id="page3">
-  		<div data-role="header" data-theme="b" data-add-back-btn="true">
-  			<h3> halaman 2 </h3>
+  		<div data-role="header" data-theme="w" data-add-back-btn="true" data-back-btn-text="Back">
+  			<h1>My profile</h1>
   		</div>
   		<div data-role="content">
+        <ul data-role="listview">
+          <li>Name : Andreas Prasetyo</li>
+          <li>NRP  : 26416096</li>
+      </ul>
   		</div>
   </div>
 
