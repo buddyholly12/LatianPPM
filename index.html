@@ -1,21 +1,27 @@
 <html>
 <head>
+  <meta charset="utf-8" content="width=device-width , initial-scale=1 ">
+  <script src="jquerym/jquery.js"></script>
+	<script src="jquerym/jquery.mobile-1.4.5.js"></script>
+	<link rel="stylesheet" href="jquerym/jquery.mobile-1.4.5.css">
   <title>Page Title</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="jquery.js"></script>
-  <script src="jquery.mobile-1.4.5.js"></script>
-  <link rel="stylesheet" href="jquerym/jquery.mobile-1.4.5.css">
 </head>
 <body>
 <div data-role="page">
   <div data-role="header">
     <h1> INI header </h1>
+    <div data-role="navbar">
+    <ul>
+        <li><a href="#page2" data-transition="slide" class="ui-btn-active">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+    </ul>
+</div><!-- /navbar -->
   </div>
   <div data-role="content">
-    <center>
-      <a href="#page2" data-transition="slide" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">page</a>
-    </center>
+
   </div>
+</div>
   <div data-role="page" id="page2">
   		<div data-role="header" data-theme="b" data-add-back-btn="true">
   			<h3> halaman 2 </h3>
@@ -23,6 +29,6 @@
   		<div data-role="content">
   		</div>
   </div>
-</div>
+
 </body>
 </html>
